@@ -9,9 +9,9 @@ const removeFromArray = function(original, ...blackList) {
             /* check if they're equal IF so, then CONTINUE 
             to the next item in the original array */
             if (item === blackItem) continue OUTER;
-            // ELSE, add the item to the new array
-            filtered.push(item)
         }
+        // ELSE, add the item to the new array
+        filtered.push(item)
     }
 
     // return the new array
